@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk
+FROM openjdk:17-jdk
 LABEL maintainer="email"
 ARG JAR_FILE=build/libs/spring.jar
 ADD ${JAR_FILE} docker-springboot.jar
